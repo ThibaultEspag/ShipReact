@@ -6,7 +6,7 @@ module.exports = shipit => {
   shipit.initConfig({
     default: {
       deployTo: '/Users/thibaultespagnol/git/depotest/my-react-app',
-      repositoryUrl: 'https://github.com/user/super-project.git',
+      repositoryUrl: 'git@github.com:ThibaultEspag/ShipReact.git',
     },
     staging: {
       servers: 'deploy@staging.super-project.com',
